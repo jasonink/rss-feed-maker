@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Hear and See Life</title>
     <link>https://hearandsee.life/</link>
     <language>zh</language>
     <copyright>Hear and See </copyright>
-    <itunes:subtitle></itunes:subtitle>
+    <itunes:subtitle>abc</itunes:subtitle>
     <itunes:author>Hear and See</itunes:author>
     <itunes:summary>dfljafdlf;j</itunes:summary>  
     <itunes:owner>
       <itunes:name>abc</itunes:name>
       <itunes:email>hearsee@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://raw.githubusercontent.com/jasonink/rss-feed-maker/main/test_artwork.png" />
-    <itunes:category text="Christianity"/>
-    
+    <itunes:image href="https://raw.githubusercontent.com/jasonink/rss-feed-maker/main/test_artwork.png"/>
+    <itunes:category text="Christianity"/>  
       <item>
         <title>episode 1</title>
         <itunes:author>hear see</itunes:author>
@@ -26,6 +25,5 @@
         <pubDate>Mon Feb 15 2021 22:07:49 GMT-0800 (Pacific Standard Time)</pubDate>
         <itunes:duration>20:11</itunes:duration>
       </item>
-    
   </channel>
 </rss>
