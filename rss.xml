@@ -19,7 +19,7 @@
         <itunes:author>hear see</itunes:author>
         <itunes:subtitle></itunes:subtitle>
         <itunes:summary>this is episode 1.</itunes:summary>
-        <itunes:image href="" />
+        <itunes:image href="https://raw.githubusercontent.com/jasonink/rss-feed-maker/main/test_artwork.png" />
         <enclosure url="https://hearandsee.life/static/sounds/2021/01/946d5efa02dedce21cf31e196e845f13ae4994a2.mp3" length="21546799" type="audio/mpeg"/>
         <guid></guid>
         <pubDate>Mon Feb 15 2021 22:07:49 GMT-0800 (Pacific Standard Time)</pubDate>
