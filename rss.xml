@@ -12,7 +12,7 @@
       <itunes:name>abc</itunes:name>
       <itunes:email>hearsee@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://www.html5rocks.com/static/images/tutorials/easy-hidpi/chrome2x.png" />
+    <itunes:image href="https://raw.githubusercontent.com/jasonink/rss-feed-maker/main/test_artwork.png" />
     <itunes:category text="Christianity"/>
     
       <item>
