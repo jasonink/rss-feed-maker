@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Hear and See Life</title>
+    <link>https://hearandsee.life/</link>
+    <language>zh</language>
+    <copyright>Hear and See </copyright>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:author>Hear and See</itunes:author>
+    <itunes:summary>dfljafdlf;j</itunes:summary>  
+    <itunes:owner>
+      <itunes:name>abc</itunes:name>
+      <itunes:email>hearsee@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://www.html5rocks.com/static/images/tutorials/easy-hidpi/chrome2x.png" />
+    <itunes:category text="Christianity"/>
+    
+      <item>
+        <title>episode 1</title>
+        <itunes:author>hear see</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary>this is episode 1.</itunes:summary>
+        <itunes:image href="" />
+        <enclosure url="https://hearandsee.life/static/sounds/2021/01/946d5efa02dedce21cf31e196e845f13ae4994a2.mp3" length="21546799" type="audio/mpeg"/>
+        <guid></guid>
+        <pubDate>Mon Feb 15 2021 22:07:49 GMT-0800 (Pacific Standard Time)</pubDate>
+        <itunes:duration>20:11</itunes:duration>
+      </item>
+    
+  </channel>
+  </rss>
