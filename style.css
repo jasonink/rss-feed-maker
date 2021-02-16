@@ -1,0 +1,145 @@
+body {
+  background: #232425;
+  color: #ffffff;
+  padding: 80px 0px 0px 0px;
+}
+body ::selection {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.4);
+}
+body ::-moz-selection {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.wrapper {
+  position: relative;
+  width: 1020px;
+  height: 650px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  border: 1px solid #333;
+  box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  padding: 10px 0px;
+  background: #232425;
+  z-index: 10;
+}
+.header .header-body {
+  position: relative;
+  width: 1020px;
+  margin: auto;
+}
+.header .header-helper-output {
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  color: #ccc;
+  width: 55%;
+  height: 70px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.header a {
+  color: #fff;
+}
+.header h1 {
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 16px;
+  color: #ccc;
+  margin-top: 0;
+}
+
+/* Form styles */
+.form {
+  width: 400px;
+  float: left;
+}
+.form fieldset {
+  position: relative;
+  margin: 30px 0px;
+  border: 1px solid #444;
+}
+.form fieldset legend {
+  color: #ccc;
+}
+.form label {
+  width: 140px;
+  display: inline-block;
+  color: #ccc;
+  font-size: 14px;
+}
+.form .hide {
+  height: 0px;
+  overflow: hidden;
+  transition: height 1s ease-out;
+}
+.form .item:nth-child(1) .remove-item {
+  display: none;
+}
+.form .field {
+  margin: 10px 0px;
+}
+
+input[type="text"], input[type="date"], textarea, button {
+  border: 1px solid #444;
+  background: #222;
+  padding: 6px 8px;
+  color: #ccc;
+  width: 200px;
+  transition: background-color 0.2s ease-out;
+  font-size: 14px;
+}
+input[type="text"]:focus, input[type="text"]:hover, input[type="date"]:focus, input[type="date"]:hover, textarea:focus, textarea:hover, button:focus, button:hover {
+  background: #000;
+}
+
+button {
+  display: inline-block;
+  width: 140px;
+  font-size: 12px;
+  border-radius: 4px;
+  height: 30px;
+  padding-top: 4px;
+}
+button:active {
+  padding-top: 5px;
+}
+
+/* XML output */
+.output-wrapper {
+  min-height: 400px;
+  float: left;
+  margin-top: 12px;
+}
+.output-wrapper #output {
+  position: fixed;
+  padding: 10px 0px 0px 20px;
+  font-size: 14px;
+  width: 500px;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* XML Node styling */
+.node {
+  font-weight: normal;
+  color: #444;
+}
+
+.attribute {
+  color: #fff !important;
+}
+
+.output-wrapper:hover .node {
+  color: #8e6e35;
+}
